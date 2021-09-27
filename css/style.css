@@ -1,0 +1,63 @@
+html {
+    background: url(../gallery/bg.jpg) no-repeat center center fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#clock-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 18%;
+    color: white;
+}
+
+#clock {
+    font-size: calc(1rem + 2vw);
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#clock-div p {
+    font-size: calc(1rem + 0.6vw);
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#prj {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin-top: 100px;
+}
+
+#today {
+    font-size: calc(1rem + 0.9vw);
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#msg {
+    font-size: calc(0.8rem + 0.1vw);
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#quote-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin-top: 90px;
+
+    font-size: calc(0.8rem + 0.3vw);
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#clock-div h1, p {
+    margin: 0px;
+}
