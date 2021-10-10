@@ -132,8 +132,79 @@ header .search-bar span:hover{
     width: 150px;
 }
 
-@media (max-width: 1060px){
+/*Title message*/
+.titleMsg{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 2.2rem;
+    color: rgb(88, 88, 88);
+}
+
+.contentContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    margin-top: 40px;
+}
+.component{
+    height: 100%;
+}
+#contentImg{
+    height: 100%;
+}
+.contentCaption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+    padding-top: 20px;
+}
+
+
+
+/*.contentContainer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    height: 400px
+}
+.component{
+    height: 100%;
+    width: 32%;
+    overflow: hidden;
+}
+.imageWrapper{
+    padding-bottom: 20px;
+    height: 100%;
+}
+.imageWrapper img{
+    width: 100%;
+}
+.contentCaption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}*/
+
+
+@media (max-width: 1290px){
     .titleDiv{
         font-size: 2.3rem;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .navBar span a {
+        font-size: 1.1rem;
+    }
+    .titleMsg{
+        font-size: 1.9rem;
     }
 }
