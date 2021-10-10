@@ -92,20 +92,25 @@ header .search-bar span:hover{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #f0551d;
+    background-image: url("../gallery/3582.jpg");
+    background-size: cover;
     width: 100%;
-    height: 465px;
+    height: 400px;
     margin-top: 20px;
 }
 .titleDiv{
     color: white;
     line-height: 50px;
     font-size: 2.5rem;
+    margin-left: 50px;
 }
-.divImage{
+.divImage {
+    height: 100%;
+    margin-right: 50px;
+}
+#coverImg{
     height: 100%;
 }
-
 
 .divIcon{
     display: flex;
