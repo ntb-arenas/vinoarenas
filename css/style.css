@@ -95,6 +95,7 @@ header .search-bar span:hover{
     color: rgb(88, 88, 88);
     font-size: 1.5rem;
     padding: 10px 15px 5px;
+    transition: 0.1s;
 }
 .navBar span:hover a{
     border-bottom-style: solid;
@@ -148,7 +149,7 @@ header .search-bar span:hover{
     align-items: center;
     width: 100%;
     height: 400px;
-    margin-top: 40px;
+    margin-top: 25px;
 }
 .component{
     height: 100%;
@@ -160,9 +161,12 @@ header .search-bar span:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    text-decoration: none;
     color: rgb(88, 88, 88);
     padding-top: 20px;
+}
+.contentCaption h2, a{
+    text-decoration: none;
+    font-size: 2rem;
 }
 
 
