@@ -168,6 +168,13 @@ header .search-bar span:hover{
     text-decoration: none;
     font-size: 2rem;
 }
+.component p{
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+    color: rgb(88, 88, 88);
+    margin-top: 10px;
+}
 
 
 
