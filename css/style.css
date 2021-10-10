@@ -102,11 +102,11 @@ header .search-bar span:hover{
     color: white;
     line-height: 50px;
     font-size: 2.5rem;
-    margin-left: 50px;
+    margin-left: 150px;
 }
 .divImage {
     height: 100%;
-    margin-right: 50px;
+    margin-right: 150px;
 }
 #coverImg{
     height: 100%;
