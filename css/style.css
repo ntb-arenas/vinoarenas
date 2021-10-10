@@ -2,7 +2,7 @@ html{
     font-size: 10px;
 }
 html, body {
-    height: 100%;
+    height: 1900px;
     width: 100%;
 }
 main{
@@ -86,7 +86,7 @@ header .search-bar span:hover{
     margin: 20px auto 20px auto;
     border-top-style: solid;
     border-top-width: 1px;
-    border-top-color: gray;
+    border-top-color: rgb(163, 163, 163);
     padding-top: 20px;
 }
 
@@ -144,8 +144,13 @@ header .search-bar span:hover{
     margin-top: 20px;
     font-size: 2.2rem;
     color: rgb(88, 88, 88);
+    padding-bottom: 20px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(163, 163, 163);
 }
 
+/*PRODUCT WINDOW*/
 .contentContainer{
     display: flex;
     justify-content: space-around;
@@ -177,9 +182,42 @@ header .search-bar span:hover{
     font-size: 1.3rem;
     color: rgb(88, 88, 88);
     margin-top: 10px;
+    text-decoration: underline;
 }
 
 
+.contentContainer2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+}
+.component{
+    height: 100%;
+}
+#contentImg{
+    height: 100%;
+}
+.contentCaption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(88, 88, 88);
+    padding-top: 20px;
+}
+.contentCaption h2, a{
+    text-decoration: none;
+    font-size: 2rem;
+}
+.component p{
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+    color: rgb(88, 88, 88);
+    margin-top: 10px;
+}
 
 
 @media (max-width: 1290px){
