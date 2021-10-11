@@ -63,7 +63,7 @@ header .search-bar span{
     background-color: #f35518;
     box-shadow: 6px 4px 7px gray;
     cursor: pointer;
-    transition: 0.3s;
+    transition: 0.6s;
 }
 header .search-bar span:hover{
     background-color: black;
@@ -224,10 +224,10 @@ header .search-bar span:hover{
 .coverFooter{
     display: flex;
     align-items: center;
-    height: 300px;
+    height: 200px;
     width: 100%;
-    background-color: #f35518;
     margin-top: 50px;
+    background-color: rgb(224, 224, 224);
 }
 .coverFooter .logoContainer{
     display: flex;
@@ -238,20 +238,17 @@ header .search-bar span:hover{
     margin-left: 50px;
 }
 .coverFooter .logoContainer .logo img{
-    padding-bottom: 20px;
-    height: 8rem;
+    height: 6rem;
 }
 .coverFooter .logoContainer .apoio{
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    background-color: white;
     border-radius: 10px;
     height: 8rem;
     width: 15rem;
     padding-left: 10px;
-    margin-left: 14px;
 }
 .coverFooter .logoContainer .apoio h5{
     font-size: 1.5rem;
@@ -267,6 +264,36 @@ header .search-bar span:hover{
     font-size: 1.1rem;
 }
 
+
+.componentContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80%;
+    width: 80%;
+    margin-left: 7rem;
+}
+.component{
+    width: 30%;
+}
+.componentContainer .component .componentTitle{
+    font-size: 2rem;
+    color: rgb(44, 44, 44);
+    font-family: 'Montserrat', sans-serif;
+}
+.componentContainer .component .componentContent a{
+    font-size: 1.5rem;
+    color: rgb(117, 117, 117);
+    line-height: 2rem;
+    text-decoration: none;
+}
+.componentContainer .component .line{
+    width: 70%;
+    height: 1px;
+    background-color: rgb(150, 150, 150);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 /**FOOTER ENDS HERE**/
 
 
