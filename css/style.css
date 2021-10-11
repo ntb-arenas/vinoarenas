@@ -156,7 +156,6 @@ header .search-bar span:hover{
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     /* gap:1.5rem; */
 }
-
 .features .box-container .box{
     padding:3rem 2rem;
     background: #fff; 
@@ -185,6 +184,49 @@ header .search-bar span:hover{
     line-height: 1.8;
     color: black;
 }
+
+.features2 .box-container2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    /* gap:1.5rem; */
+}
+.features2 .box-container2 .box{
+    padding:3rem 2rem;
+    background: #fff; 
+    text-align: center;
+}
+
+.features2 .box-container2 .box:hover{
+    outline: var(--outline-hover);
+    outline-offset: 0rem;
+}
+
+.features2 .box-container2 .box img{
+    margin:1rem 0;
+    height: 30rem;
+}
+
+.features2 .box-container2 .box h3{
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.8;
+}
+
+.features2 .box-container2 .box a{
+    font-size: 1.2rem;
+    text-decoration: underline;
+    line-height: 1.8;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 1290px){
     .titleDiv{
