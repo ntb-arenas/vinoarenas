@@ -178,10 +178,11 @@ header .search-bar span:hover{
 }
 
 .features .box-container .box a{
-    font-size: 1.2rem;
-    text-decoration: underline;
+    font-size: 1.5rem;
+    font-family: "Times New Roman", Times, serif;
+    text-decoration: none;
     line-height: 1.8;
-    color: black;
+    color: white;
 }
 
 .features2 .box-container2{
@@ -212,11 +213,48 @@ header .search-bar span:hover{
 }
 
 .features2 .box-container2 .box a{
-    font-size: 1.2rem;
-    text-decoration: underline;
+    font-size: 1.5rem;
+    font-family: "Times New Roman", Times, serif;
+    text-decoration: none;
     line-height: 1.8;
-    color: black;
+    color: white;
 }
+
+.b6 .example_f {
+    border-radius: 4px;
+    background: linear-gradient(to right, #f35518, #ffc506) !important;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    width: 100px;
+    transition: all 0.4s;
+    cursor: pointer;
+    margin: 5px;
+  }
+ .b6 .example_f span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+  }
+ .b6 .example_f span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+ .b6 .example_f:hover span {
+    padding-right: 25px;
+  }
+ .b6 .example_f:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
 /**FEATURES ENDS HERE**/
 
 
