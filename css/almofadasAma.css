@@ -51,16 +51,30 @@
 
 
 /**PRODUCT STARTS HERE**/
+.div-row {
+    display: flex;
+    flex-wrap: wrap;
+    background: rgb(224, 224, 224);
+}
+
+.sidebar {
+    width: 25%;
+}
+
+.sidebar .form {
+    position: fixed;
+}
 .content-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
+    width: 75%;
 }
 
 .content-container .component {
-    background-color: rgb(202, 202, 202);
-    width: 25rem;
-    height: 300px;
+    background: #ff723a;
+    width: 20rem;
+    height: 25rem;
     margin: 10px;
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
@@ -73,8 +87,9 @@
     display: flex;
     justify-content: center;
     background: rgb(255, 255, 255);
-    margin: 10px;
-    height: 70%;
+    border-radius: 5px;
+    margin: 5px;
+    height: 75%;
 }
 
 /**PRODUCT ENDS HERE**/
