@@ -1,13 +1,14 @@
 const btn = document
-    .querySelector('.read-more-btn');
+    .querySelectorAll('.read-more-btn');
 
 const text = document
-    .querySelector('.content-wrapper');
+    .querySelectorAll('.content-wrapper');
 
 const contentWrapper = document
-    .querySelector('.content-wrapper');
+    .querySelectorAll('.content-wrapper');
 
-contentWrapper
+for (var i = 0; i < contentWrapper.length; i++) {
+    contentWrapper[i]
     .addEventListener('click', e => {
         const current = e.target;
 
@@ -22,13 +23,15 @@ contentWrapper
 
         current.textContent = current.textContent.includes('Ler mais') ? 'Ler menos' : 'Ler mais';
     });
+}
+
 
 $(document).ready(function () {
-    $('#autoWidth').lightSlider({
+    $('.autoWidth').lightSlider({
         autoWidth: true,
         loop: true,
         onSliderLoad: function () {
-            $('#autoWidth').removeClass('cS-hidden');
+            $('.autoWidth').removeClass('cS-hidden');
         }
     });
 });
