@@ -1,3 +1,4 @@
+/**title desc STARTS HERE**/
 .content-wrapper {
     display: flex;
     justify-content: center;
@@ -48,6 +49,8 @@
 .read-more-btn:hover {
     transform: translateY(-3px);
 }
+/**title desc ENDS HERE**/
+
 
 
 /**PRODUCT STARTS HERE**/
@@ -57,17 +60,11 @@
     background: rgb(224, 224, 224);
 }
 
-.sidebar {
-    width: 25%;
-}
-
-.sidebar .form {
-    position: fixed;
-}
 .content-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    flex: 3;
     width: 75%;
 }
 
@@ -92,4 +89,13 @@
     height: 75%;
 }
 
+.sidebar {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.sidebar .form {
+    position: fixed;
+}
 /**PRODUCT ENDS HERE**/

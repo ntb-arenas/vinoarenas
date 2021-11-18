@@ -210,7 +210,7 @@ header .search-bar span:hover{
 .features2 .box-container2 .box h3{
     font-size: 2rem;
     font-family: 'Roboto', sans-serif;
-    
+    font-weight: 500; 
     line-height: 1.8;
 }
 
