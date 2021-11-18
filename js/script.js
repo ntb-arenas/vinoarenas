@@ -20,7 +20,7 @@ contentWrapper
 
         currentText.classList.toggle('desc__read-more--open');
 
-        current.textContent = current.textContent.includes('Ler mains') ? 'Ler menos' : 'Ler mais';
+        current.textContent = current.textContent.includes('Ler mais') ? 'Ler menos' : 'Ler mais';
     });
 
 $(document).ready(function () {
