@@ -62,10 +62,9 @@
 
 .content-container {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
     flex: 3;
-    width: 75%;
+    width: 50%;
 }
 
 .content-container .component {
@@ -80,6 +79,11 @@
     overflow: hidden;
 }
 
+.content-container .h2 {
+    display: flex;
+    justify-content: center;
+}
+
 .product {
     display: flex;
     justify-content: center;
@@ -92,10 +96,6 @@
 .sidebar {
     display: flex;
     justify-content: center;
-    flex: 1;
-}
-
-.sidebar .form {
-    position: fixed;
+    flex: 2;
 }
 /**PRODUCT ENDS HERE**/
