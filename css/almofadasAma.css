@@ -99,7 +99,7 @@
     text-decoration: none;
 }
 
-.productName, .productPrice{
+.productName{
     display: flex;
     justify-content: center;
     text-align: center;
@@ -109,9 +109,6 @@
     
 }
 
-.productPrice {
-    color: rgb(0, 97, 243);
-}
 
 .sidebar {
     display: flex;
