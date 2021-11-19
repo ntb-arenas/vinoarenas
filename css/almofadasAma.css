@@ -63,8 +63,7 @@
 .content-container {
     display: flex;
     flex-wrap: wrap;
-    flex: 3;
-    width: 50%;
+    width: 70%;
 }
 
 .content-container .component {
@@ -83,6 +82,7 @@
     display: flex;
     justify-content: center;
     margin-top: 15px;
+    color: #ff723a;
 }
 
 .product {
@@ -105,14 +105,80 @@
     text-align: center;
     font-size: 2.1rem;
     font-family: 'Roboto', sans-serif;
-    color: rgb(236, 236, 236);
+    color: rgb(217, 255, 0);
     
 }
 
 
+
+
 .sidebar {
+    width: 30%;
     display: flex;
     justify-content: center;
-    flex: 2;
+    align-items: center;
+    flex-direction: column;
+}
+
+.comPadrao {
+    margin: 10px;
+    margin-top: 20px;
+    font-size: 1.7rem;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #ff723a;
+    padding: 10px;
+}
+
+.comPadrao .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.5rem 0 1rem;
+}
+
+.comPadrao .container h3{
+    font-family: 'Roboto', sans-serif;
+}
+.comPadrao p, label, select {
+    padding: 0 1.5rem 0 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.comPadrao select {
+    font-size: 1.8rem;
+    margin-left: 1.3rem;
+    padding-right: 10rem;
+    overflow: hidden;
+}
+
+.semPadrao {
+    margin: 10px;
+    margin-top: 20px;
+    font-size: 1.7rem;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #ff723a;
+    padding: 10px;
+}
+
+.semPadrao .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.5rem 0 1rem;
+}
+
+.semPadrao .container h3{
+    font-family: 'Roboto', sans-serif;
+}
+.semPadrao p, label, select {
+    padding: 0 1.5rem 0 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.semPadrao select {
+    font-size: 1.8rem;
+    margin-left: 1.3rem;
+    padding-right: 10rem;
+    overflow: hidden;
 }
 /**PRODUCT ENDS HERE**/
