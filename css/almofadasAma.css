@@ -3,7 +3,10 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    background: rgb(224, 224, 224);
+    background-image: url("../gallery/coverAlmofada.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .content-wrapper .div-contents h1 {
@@ -18,14 +21,14 @@
     margin-top: 10px;
     color: rgb(56, 56, 56);
 }
-
 .desc__read-more {
     display: block;
     opacity: 0;
     height: 0;
     transition: all 0.5s;
     font-size: 1.3rem;
-    color: rgb(85, 85, 85);
+    font-weight: 600;
+    color: rgb(53, 53, 53);
 }
 
 .desc__read-more--open {
@@ -39,16 +42,18 @@
     display: inline-block;
     padding: 0.6rem 1.5rem;
     font-size: 1.5rem;
+    font-weight: 700;
     position: relative;
     z-index: 1;
     transition: all 0.5s;
     cursor: pointer;
-    color: #f35518;
+    color: #ff6b31;
 }
 
 .read-more-btn:hover {
     transform: translateY(-3px);
 }
+
 /**title desc ENDS HERE**/
 
 
@@ -57,7 +62,7 @@
 .div-row {
     display: flex;
     flex-wrap: wrap;
-    background: rgb(224, 224, 224);
+    background: rgb(235, 235, 235);
 }
 
 .content-container {
@@ -95,18 +100,18 @@
     overflow: hidden;
 }
 
-.component a{
+.component a {
     text-decoration: none;
 }
 
-.productName{
+.productName {
     display: flex;
     justify-content: center;
     text-align: center;
     font-size: 2.1rem;
     font-family: 'Roboto', sans-serif;
     color: rgb(217, 255, 0);
-    
+
 }
 
 
@@ -136,9 +141,10 @@
     padding: 0 1.5rem 0 1rem;
 }
 
-.comPadrao .container h3{
+.comPadrao .container h3 {
     font-family: 'Roboto', sans-serif;
 }
+
 .comPadrao p, label, select {
     padding: 0 1.5rem 0 1rem;
     font-family: 'Roboto', sans-serif;
@@ -157,7 +163,7 @@
     font-size: 1.7rem;
     border-style: solid;
     border-radius: 10px;
-    border-color: #ff723a;
+    border-color: #db6232;
     padding: 10px;
 }
 
@@ -167,9 +173,10 @@
     padding: 0 1.5rem 0 1rem;
 }
 
-.semPadrao .container h3{
+.semPadrao .container h3 {
     font-family: 'Roboto', sans-serif;
 }
+
 .semPadrao p, label, select {
     padding: 0 1.5rem 0 1rem;
     font-family: 'Roboto', sans-serif;
@@ -181,4 +188,5 @@
     padding-right: 10rem;
     overflow: hidden;
 }
+
 /**PRODUCT ENDS HERE**/
