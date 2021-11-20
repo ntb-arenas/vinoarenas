@@ -9,20 +9,20 @@ const contentWrapper = document
 
 for (var i = 0; i < contentWrapper.length; i++) {
     contentWrapper[i]
-    .addEventListener('click', e => {
-        const current = e.target;
+        .addEventListener('click', e => {
+            const current = e.target;
 
-        const isReadMoreBtn = current.className.includes('read-more-btn');
+            const isReadMoreBtn = current.className.includes('read-more-btn');
 
-        if (!isReadMoreBtn)
-            return;
+            if (!isReadMoreBtn)
+                return;
 
-        const currentText = e.target.parentNode.querySelector('.desc__read-more');
+            const currentText = e.target.parentNode.querySelector('.desc__read-more');
 
-        currentText.classList.toggle('desc__read-more--open');
+            currentText.classList.toggle('desc__read-more--open');
 
-        current.textContent = current.textContent.includes('Ler mais') ? 'Ler menos' : 'Ler mais';
-    });
+            current.textContent = current.textContent.includes('Ler mais') ? 'Ler menos' : 'Ler mais';
+        });
 }
 
 

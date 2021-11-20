@@ -9,7 +9,7 @@
     <!-- stylesheet ---------------------------->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/almofadasAma.css">
-    <link rel="stylesheet" href="css/tecidos.css">
+    <link rel="stylesheet" href="css/button.css">
     <link rel="stylesheet" href="css/lightslider.css">
     <!-- page icon --------------------------------->
     <link rel="shortcut icon" href="gallery/logo.png">
@@ -20,8 +20,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <!-- Jquery ----------------------------------------------->
     <script src="js/jquery.js"></script>
+    <script data-require="jquery@3.1.1" data-semver="3.1.1"
+        src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <!-- lightslider.js ------------------------------------------>
     <script src="js/lightslider.js"></script>
+    <script src="js/script1.js"></script>
 
 
 </head>
@@ -140,6 +143,19 @@
                             <option value="azul-pique">Azul-Pique</option>
                             <option value="azulao">Azulão</option>
                         </select>
+                        <br>
+
+                        <div class="container-button">
+                            <div class="quantity buttons_added">
+                                <input type="button" value="-" class="minus"><input type="number" step="1" min="1"
+                                    max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4"
+                                    pattern="" inputmode=""><input type="button" value="+" class="plus">
+                            </div>
+
+                            <div class="addToCart">
+                                <input type="button" id="addToCart" name="addToCart" value="ADICIONAR AO CARRINHO">
+                            </div>
+                        </div>
                     </form>
                 </div>
 
@@ -184,6 +200,19 @@
                             <option value="azul-pique">Azul-Pique</option>
                             <option value="azulao">Azulão</option>
                         </select>
+                        <br>
+
+                        <div class="container-button">
+                            <div class="quantity buttons_added">
+                                <input type="button" value="-" class="minus"><input type="number" step="1" min="1"
+                                    max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4"
+                                    pattern="" inputmode=""><input type="button" value="+" class="plus">
+                            </div>
+
+                            <div class="addToCart">
+                                <input type="button" id="addToCart" name="addToCart" value="ADICIONAR AO CARRINHO">
+                            </div>
+                        </div>
                     </form>
                 </div>
             </div>

@@ -81,6 +81,14 @@
     -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
     border-radius: 3%;
     overflow: hidden;
+    background: #ff723a;
+    border: 1px solid transparent;
+    transition: 0.3s;
+}
+
+.content-container .component:hover {
+    background: #fc4700;
+    border: 1px solid #fc4700;
 }
 
 .content-container h2 {
@@ -187,6 +195,38 @@
     margin-left: 1.3rem;
     padding-right: 10rem;
     overflow: hidden;
+}
+
+.comPadrao .container-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.semPadrao .container-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.addToCart {
+    margin-left: 10px;
+}
+
+#addToCart {
+    font-size: 2rem;
+    padding: 1.3rem 10px 1.3rem 10px;
+    border-radius: 10px;
+    background: #ff723a;
+    cursor: pointer;
+    border-style: none;
+    transition: 0.3s;
+}
+
+#addToCart:hover {
+    background: #df490d;
 }
 
 /**PRODUCT ENDS HERE**/
