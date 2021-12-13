@@ -21,6 +21,7 @@
     margin-top: 10px;
     color: rgb(56, 56, 56);
 }
+
 .desc__read-more {
     display: block;
     opacity: 0;
@@ -230,3 +231,44 @@
 }
 
 /**PRODUCT ENDS HERE**/
+
+.container-modoUtilizacao {
+    margin: 20px;
+}
+
+.image-modoUtilizacao-dormir {
+    background-image: url("../gallery/productimg/6.jpg");
+    height: 300px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.image-modoUtilizacao-amamentar {
+    background-image: url("../gallery/productimg/10.jpg");
+    height: 300px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.image-modoUtilizacao-descansar {
+    background-image: url("../gallery/productimg/7.jpg");
+    height: 300px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.content-wrapper-modoUtilizacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
